@@ -74,6 +74,9 @@
                   echo $internacional["resumen"];
                 ?>
               </p>
+              <?php if (!empty($internacional["img"])): ?>
+                <img src="<?php echo $internacional['img']; ?>" alt="Imagen de <?php echo $internacional['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -584,6 +587,7 @@
     </script>
   </body>
 </html>
+
 
 
 
