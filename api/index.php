@@ -98,6 +98,11 @@
                   echo $nacional["resumen"];
                 ?>
               </p>
+
+              <?php if (!empty($nacional["img"])): ?>
+                <img src="<?php echo $nacional['img']; ?>" alt="Imagen de <?php echo $nacional['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
+              
             </div>
           </div>
         </div>
@@ -579,6 +584,7 @@
     </script>
   </body>
 </html>
+
 
 
 
