@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/api/img/icono.png">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" type="image/png">
     
     <title>DIARIO EL HOCICÓN</title>
 
@@ -579,6 +579,7 @@
     </script>
   </body>
 </html>
+
 
 
 
