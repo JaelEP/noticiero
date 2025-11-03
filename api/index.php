@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="http://www.w3.org/2000/svg">
+    <link rel="icon" src="api/img/icono.png">
     
     <title>DIARIO EL HOCICÓN</title>
 
@@ -579,6 +579,7 @@
     </script>
   </body>
 </html>
+
 
 
 
