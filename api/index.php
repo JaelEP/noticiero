@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78oyE-oTejur70Dvl45JV1klrJ6G3r2qzGg&s" type="image/x-icon">
     
     <title>DIARIO 123</title>
 
@@ -587,6 +587,7 @@
     </script>
   </body>
 </html>
+
 
 
 
