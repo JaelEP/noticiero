@@ -39,7 +39,7 @@
               echo $portada["titulo"];
             ?>
           </h1>
-          <p class="lead my-3">
+          <p class="lead my-3 font-italic">
             <?php
               echo $portada["resumen"];
             ?>
@@ -139,6 +139,9 @@
                   echo $economia["resumen"];
                 ?>
               </p>
+              <?php if (!empty($economia["img"])): ?>
+                <img src="<?php echo $economia['img']; ?>" alt="Imagen de <?php echo $economia['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -163,6 +166,9 @@
                   echo $opinion["resumen"];
                 ?>
               </p>
+              <?php if (!empty($opinion["img"])): ?>
+                <img src="<?php echo $opinion['img']; ?>" alt="Imagen de <?php echo $opinion['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -587,6 +593,7 @@
     </script>
   </body>
 </html>
+
 
 
 
