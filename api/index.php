@@ -202,6 +202,9 @@
                   echo $tecnologia["resumen"];
                 ?>
               </p>
+              <?php if (!empty($tecnologia["img"])): ?>
+                <img src="<?php echo $tecnologia['img']; ?>" alt="Imagen de <?php echo $tecnologia['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -226,6 +229,9 @@
                   echo $ciencia["resumen"];
                 ?>
               </p>
+              <?php if (!empty($ciencia["img"])): ?>
+                <img src="<?php echo $ciencia['img']; ?>" alt="Imagen de <?php echo $ciencia['resumen']; ?>" class="img-fluid">
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -593,6 +599,7 @@
     </script>
   </body>
 </html>
+
 
 
 
